@@ -1,0 +1,5 @@
+| Tipo de Merge        |¿Permitido?| Descripción                                                                                                                                                             |
+| -------------------- | ----------| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Merge Commit**     | Sí        | Se permite para preservar el historial completo del desarrollo. Ideal para `release/` y `hotfix/`.                                                                      |
+| **Squash Merge**     | Sí        | Se utiliza para condensar todos los commits de una rama en uno solo. Ideal para `feature/` o `bugfix/` para mantener un historial limpio.                               |
+| **Rebase and Merge** | No        | No permitido en ramas compartidas, ya que reescribe el historial y puede causar conflictos. Solo se permite de forma local antes del PR si se requiere limpieza previa. |
